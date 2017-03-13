@@ -467,3 +467,12 @@ body {
 #projects {
     background: #f3f3f3;
 }
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    z-index: 100;
+}
