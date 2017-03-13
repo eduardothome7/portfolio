@@ -178,12 +178,14 @@ header {
   text-align: center;
   color: white;
 }
+
 header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
 }
+
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
@@ -191,15 +193,18 @@ header .header-content .header-content-inner h1 {
   margin-bottom: 0;
   font-size: 30px;
 }
+
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
+
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 50px;
 }
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -227,27 +232,33 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 }
+
 .section-heading {
   margin-top: 0;
 }
+
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
 }
+
 @media (min-width: 992px) {
   .service-box {
     margin: 20px auto 0;
   }
 }
+
 .service-box p {
   margin-bottom: 0;
 }
+
 .portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
 }
+
 .portfolio-box .portfolio-box-caption {
   color: white;
   opacity: 0;
@@ -262,6 +273,7 @@ header .header-content .header-content-inner p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
   text-align: center;
@@ -269,25 +281,31 @@ header .header-content .header-content-inner p {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   padding: 0 15px;
 }
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
 }
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
+
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
 .portfolio-box:focus {
   outline: none;
 }
+
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
@@ -296,16 +314,20 @@ header .header-content .header-content-inner p {
     font-size: 22px;
   }
 }
+
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
+
 .text-primary {
   color: #F05F40;
 }
+
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
+
 .btn-default {
   color: #222222;
   background-color: white;
@@ -314,6 +336,7 @@ header .header-content .header-content-inner p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
+
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
@@ -324,11 +347,13 @@ header .header-content .header-content-inner p {
   background-color: #f2f2f2;
   border-color: #ededed;
 }
+
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   background-image: none;
 }
+
 .btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default,
@@ -350,10 +375,12 @@ fieldset[disabled] .btn-default.active {
   background-color: white;
   border-color: white;
 }
+
 .btn-default .badge {
   color: white;
   background-color: #222222;
 }
+
 .btn-primary {
   color: white;
   background-color: #F05F40;
@@ -362,6 +389,7 @@ fieldset[disabled] .btn-default.active {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
@@ -372,11 +400,13 @@ fieldset[disabled] .btn-default.active {
   background-color: #ee4b28;
   border-color: #ed431f;
 }
+
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   background-image: none;
 }
+
 .btn-primary.disabled,
 .btn-primary[disabled],
 fieldset[disabled] .btn-primary,
@@ -432,4 +462,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+#projects {
+    background: #f3f3f3;
 }
