@@ -5,6 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+@import url("https://fonts.googleapis.com/css?family=La+Belle+Aurore");
 /* line 9, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -12545,162 +12547,1007 @@ button.close {
   clip: auto;
 }
 
-/* line 3, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/*!
+ * Font Mfizz 2.4.1
+ * Copyright 2013-2017 Fizzed, Inc.
+ * MIT License
+ *
+ * Project: http://fizzed.com/oss/font-mfizz
+ *
+ * The font designed for technology and software geeks representing programming
+ * languages, operating systems, software engineering, and technology.
+ *
+ * Fizzed, Inc.
+ * Web: http://fizzed.com/
+ * Twitter: http://twitter.com/fizzed_inc
+ */
+@font-face {
+  font-family: "FontMfizz";
+  src: url("/assets/font-mfizz-d69ec6f83b0b6204026eedc328bf44085c4126036388ac4c494ce4d52e815fb5.eot");
+  src: url("/assets/font-mfizz-d69ec6f83b0b6204026eedc328bf44085c4126036388ac4c494ce4d52e815fb5.eot?#iefix") format("embedded-opentype"), url("/assets/font-mfizz-38c5f269173283bf4e172c14e71bfd4b72ade54c1c88cabdd655630463863b41.woff") format("woff"), url("/assets/font-mfizz-c945ce32139af3b4e57828c6784fe301d84b05ab9098991362aab328ebf2b001.ttf") format("truetype"), url("/assets/font-mfizz-4d8f86fc77abb399355ea271b6b71ba3a9c2709a381189688dbc61ef1f1fa405.svg#font-mfizz") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "FontMfizz";
+    src: url("/assets/font-mfizz-4d8f86fc77abb399355ea271b6b71ba3a9c2709a381189688dbc61ef1f1fa405.svg#font-mfizz") format("svg");
+  }
+}
+/* line 37, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+[data-icon]:before {
+  content: attr(data-icon);
+}
+
+/* line 39, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+[data-icon]:before,
+.icon-3dprint:before,
+.icon-alpinelinux:before,
+.icon-angular:before,
+.icon-angular-alt:before,
+.icon-antenna:before,
+.icon-apache:before,
+.icon-archlinux:before,
+.icon-aws:before,
+.icon-azure:before,
+.icon-backbone:before,
+.icon-blackberry:before,
+.icon-bomb:before,
+.icon-bootstrap:before,
+.icon-c:before,
+.icon-cassandra:before,
+.icon-centos:before,
+.icon-clojure:before,
+.icon-codeigniter:before,
+.icon-codepen:before,
+.icon-coffee-bean:before,
+.icon-cplusplus:before,
+.icon-csharp:before,
+.icon-css:before,
+.icon-css3:before,
+.icon-css3-alt:before,
+.icon-d3:before,
+.icon-database:before,
+.icon-database-alt:before,
+.icon-database-alt2:before,
+.icon-debian:before,
+.icon-docker:before,
+.icon-dreamhost:before,
+.icon-elixir:before,
+.icon-elm:before,
+.icon-erlang:before,
+.icon-exherbo:before,
+.icon-fedora:before,
+.icon-fire-alt:before,
+.icon-freebsd:before,
+.icon-freecodecamp:before,
+.icon-gentoo:before,
+.icon-ghost:before,
+.icon-git:before,
+.icon-gnome:before,
+.icon-go:before,
+.icon-go-alt:before,
+.icon-google:before,
+.icon-google-alt:before,
+.icon-google-code:before,
+.icon-google-developers:before,
+.icon-gradle:before,
+.icon-grails:before,
+.icon-grails-alt:before,
+.icon-grunt:before,
+.icon-gulp:before,
+.icon-gulp-alt:before,
+.icon-hadoop:before,
+.icon-haskell:before,
+.icon-heroku:before,
+.icon-html:before,
+.icon-html5:before,
+.icon-html5-alt:before,
+.icon-iphone:before,
+.icon-java:before,
+.icon-java-bold:before,
+.icon-java-duke:before,
+.icon-javascript:before,
+.icon-javascript-alt:before,
+.icon-jetty:before,
+.icon-jquery:before,
+.icon-kde:before,
+.icon-laravel:before,
+.icon-line-graph:before,
+.icon-linux-mint:before,
+.icon-looking:before,
+.icon-magento:before,
+.icon-mariadb:before,
+.icon-maven:before,
+.icon-microscope:before,
+.icon-mobile-device:before,
+.icon-mobile-phone-alt:before,
+.icon-mobile-phone-broadcast:before,
+.icon-mongodb:before,
+.icon-mssql:before,
+.icon-mysql:before,
+.icon-mysql-alt:before,
+.icon-netbsd:before,
+.icon-nginx:before,
+.icon-nginx-alt:before,
+.icon-nginx-alt2:before,
+.icon-nodejs:before,
+.icon-npm:before,
+.icon-objc:before,
+.icon-openshift:before,
+.icon-oracle:before,
+.icon-oracle-alt:before,
+.icon-osx:before,
+.icon-perl:before,
+.icon-phone-alt:before,
+.icon-phone-gap:before,
+.icon-phone-retro:before,
+.icon-php:before,
+.icon-php-alt:before,
+.icon-playframework:before,
+.icon-playframework-alt:before,
+.icon-plone:before,
+.icon-postgres:before,
+.icon-postgres-alt:before,
+.icon-python:before,
+.icon-raspberrypi:before,
+.icon-reactjs:before,
+.icon-redhat:before,
+.icon-redis:before,
+.icon-ruby:before,
+.icon-ruby-on-rails:before,
+.icon-ruby-on-rails-alt:before,
+.icon-rust:before,
+.icon-sass:before,
+.icon-satellite:before,
+.icon-scala:before,
+.icon-scala-alt:before,
+.icon-script:before,
+.icon-script-alt:before,
+.icon-shell:before,
+.icon-sitefinity:before,
+.icon-solaris:before,
+.icon-splatter:before,
+.icon-spring:before,
+.icon-suse:before,
+.icon-svg:before,
+.icon-symfony:before,
+.icon-tomcat:before,
+.icon-ubuntu:before,
+.icon-unity:before,
+.icon-wireless:before,
+.icon-wordpress:before,
+.icon-x11:before {
+  display: inline-block;
+  font-family: "FontMfizz";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+/* line 191, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-3dprint:before {
+  content: "\f100";
+}
+
+/* line 192, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-alpinelinux:before {
+  content: "\f101";
+}
+
+/* line 193, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-angular:before {
+  content: "\f102";
+}
+
+/* line 194, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-angular-alt:before {
+  content: "\f103";
+}
+
+/* line 195, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-antenna:before {
+  content: "\f104";
+}
+
+/* line 196, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-apache:before {
+  content: "\f105";
+}
+
+/* line 197, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-archlinux:before {
+  content: "\f106";
+}
+
+/* line 198, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-aws:before {
+  content: "\f107";
+}
+
+/* line 199, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-azure:before {
+  content: "\f108";
+}
+
+/* line 200, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-backbone:before {
+  content: "\f109";
+}
+
+/* line 201, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-blackberry:before {
+  content: "\f10a";
+}
+
+/* line 202, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-bomb:before {
+  content: "\f10b";
+}
+
+/* line 203, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-bootstrap:before {
+  content: "\f10c";
+}
+
+/* line 204, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-c:before {
+  content: "\f10d";
+}
+
+/* line 205, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-cassandra:before {
+  content: "\f10e";
+}
+
+/* line 206, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-centos:before {
+  content: "\f10f";
+}
+
+/* line 207, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-clojure:before {
+  content: "\f110";
+}
+
+/* line 208, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-codeigniter:before {
+  content: "\f111";
+}
+
+/* line 209, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-codepen:before {
+  content: "\f112";
+}
+
+/* line 210, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-coffee-bean:before {
+  content: "\f113";
+}
+
+/* line 211, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-cplusplus:before {
+  content: "\f114";
+}
+
+/* line 212, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-csharp:before {
+  content: "\f115";
+}
+
+/* line 213, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-css:before {
+  content: "\f116";
+}
+
+/* line 214, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-css3:before {
+  content: "\f117";
+}
+
+/* line 215, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-css3-alt:before {
+  content: "\f118";
+}
+
+/* line 216, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-d3:before {
+  content: "\f119";
+}
+
+/* line 217, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-database:before {
+  content: "\f11a";
+}
+
+/* line 218, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-database-alt:before {
+  content: "\f11b";
+}
+
+/* line 219, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-database-alt2:before {
+  content: "\f11c";
+}
+
+/* line 220, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-debian:before {
+  content: "\f11d";
+}
+
+/* line 221, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-docker:before {
+  content: "\f11e";
+}
+
+/* line 222, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-dreamhost:before {
+  content: "\f11f";
+}
+
+/* line 223, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-elixir:before {
+  content: "\f120";
+}
+
+/* line 224, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-elm:before {
+  content: "\f121";
+}
+
+/* line 225, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-erlang:before {
+  content: "\f122";
+}
+
+/* line 226, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-exherbo:before {
+  content: "\f123";
+}
+
+/* line 227, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-fedora:before {
+  content: "\f124";
+}
+
+/* line 228, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-fire-alt:before {
+  content: "\f125";
+}
+
+/* line 229, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-freebsd:before {
+  content: "\f126";
+}
+
+/* line 230, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-freecodecamp:before {
+  content: "\f127";
+}
+
+/* line 231, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-gentoo:before {
+  content: "\f128";
+}
+
+/* line 232, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-ghost:before {
+  content: "\f129";
+}
+
+/* line 233, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-git:before {
+  content: "\f12a";
+}
+
+/* line 234, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-gnome:before {
+  content: "\f12b";
+}
+
+/* line 235, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-go:before {
+  content: "\f12c";
+}
+
+/* line 236, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-go-alt:before {
+  content: "\f12d";
+}
+
+/* line 237, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-google:before {
+  content: "\f12e";
+}
+
+/* line 238, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-google-alt:before {
+  content: "\f12f";
+}
+
+/* line 239, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-google-code:before {
+  content: "\f130";
+}
+
+/* line 240, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-google-developers:before {
+  content: "\f131";
+}
+
+/* line 241, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-gradle:before {
+  content: "\f132";
+}
+
+/* line 242, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-grails:before {
+  content: "\f133";
+}
+
+/* line 243, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-grails-alt:before {
+  content: "\f134";
+}
+
+/* line 244, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-grunt:before {
+  content: "\f135";
+}
+
+/* line 245, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-gulp:before {
+  content: "\f136";
+}
+
+/* line 246, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-gulp-alt:before {
+  content: "\f137";
+}
+
+/* line 247, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-hadoop:before {
+  content: "\f138";
+}
+
+/* line 248, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-haskell:before {
+  content: "\f139";
+}
+
+/* line 249, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-heroku:before {
+  content: "\f13a";
+}
+
+/* line 250, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-html:before {
+  content: "\f13b";
+}
+
+/* line 251, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-html5:before {
+  content: "\f13c";
+}
+
+/* line 252, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-html5-alt:before {
+  content: "\f13d";
+}
+
+/* line 253, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-iphone:before {
+  content: "\f13e";
+}
+
+/* line 254, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-java:before {
+  content: "\f13f";
+}
+
+/* line 255, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-java-bold:before {
+  content: "\f140";
+}
+
+/* line 256, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-java-duke:before {
+  content: "\f141";
+}
+
+/* line 257, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-javascript:before {
+  content: "\f142";
+}
+
+/* line 258, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-javascript-alt:before {
+  content: "\f143";
+}
+
+/* line 259, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-jetty:before {
+  content: "\f144";
+}
+
+/* line 260, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-jquery:before {
+  content: "\f145";
+}
+
+/* line 261, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-kde:before {
+  content: "\f146";
+}
+
+/* line 262, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-laravel:before {
+  content: "\f147";
+}
+
+/* line 263, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-line-graph:before {
+  content: "\f148";
+}
+
+/* line 264, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-linux-mint:before {
+  content: "\f149";
+}
+
+/* line 265, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-looking:before {
+  content: "\f14a";
+}
+
+/* line 266, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-magento:before {
+  content: "\f14b";
+}
+
+/* line 267, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-mariadb:before {
+  content: "\f14c";
+}
+
+/* line 268, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-maven:before {
+  content: "\f14d";
+}
+
+/* line 269, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-microscope:before {
+  content: "\f14e";
+}
+
+/* line 270, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-mobile-device:before {
+  content: "\f14f";
+}
+
+/* line 271, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-mobile-phone-alt:before {
+  content: "\f150";
+}
+
+/* line 272, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-mobile-phone-broadcast:before {
+  content: "\f151";
+}
+
+/* line 273, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-mongodb:before {
+  content: "\f152";
+}
+
+/* line 274, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-mssql:before {
+  content: "\f153";
+}
+
+/* line 275, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-mysql:before {
+  content: "\f154";
+}
+
+/* line 276, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-mysql-alt:before {
+  content: "\f155";
+}
+
+/* line 277, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-netbsd:before {
+  content: "\f156";
+}
+
+/* line 278, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-nginx:before {
+  content: "\f157";
+}
+
+/* line 279, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-nginx-alt:before {
+  content: "\f158";
+}
+
+/* line 280, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-nginx-alt2:before {
+  content: "\f159";
+}
+
+/* line 281, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-nodejs:before {
+  content: "\f15a";
+}
+
+/* line 282, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-npm:before {
+  content: "\f15b";
+}
+
+/* line 283, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-objc:before {
+  content: "\f15c";
+}
+
+/* line 284, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-openshift:before {
+  content: "\f15d";
+}
+
+/* line 285, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-oracle:before {
+  content: "\f15e";
+}
+
+/* line 286, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-oracle-alt:before {
+  content: "\f15f";
+}
+
+/* line 287, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-osx:before {
+  content: "\f160";
+}
+
+/* line 288, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-perl:before {
+  content: "\f161";
+}
+
+/* line 289, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-phone-alt:before {
+  content: "\f162";
+}
+
+/* line 290, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-phone-gap:before {
+  content: "\f163";
+}
+
+/* line 291, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-phone-retro:before {
+  content: "\f164";
+}
+
+/* line 292, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-php:before {
+  content: "\f165";
+}
+
+/* line 293, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-php-alt:before {
+  content: "\f166";
+}
+
+/* line 294, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-playframework:before {
+  content: "\f167";
+}
+
+/* line 295, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-playframework-alt:before {
+  content: "\f168";
+}
+
+/* line 296, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-plone:before {
+  content: "\f169";
+}
+
+/* line 297, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-postgres:before {
+  content: "\f16a";
+}
+
+/* line 298, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-postgres-alt:before {
+  content: "\f16b";
+}
+
+/* line 299, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-python:before {
+  content: "\f16c";
+}
+
+/* line 300, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-raspberrypi:before {
+  content: "\f16d";
+}
+
+/* line 301, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-reactjs:before {
+  content: "\f16e";
+}
+
+/* line 302, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-redhat:before {
+  content: "\f16f";
+}
+
+/* line 303, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-redis:before {
+  content: "\f170";
+}
+
+/* line 304, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-ruby:before {
+  content: "\f171";
+}
+
+/* line 305, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-ruby-on-rails:before {
+  content: "\f172";
+}
+
+/* line 306, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-ruby-on-rails-alt:before {
+  content: "\f173";
+}
+
+/* line 307, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-rust:before {
+  content: "\f174";
+}
+
+/* line 308, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-sass:before {
+  content: "\f175";
+}
+
+/* line 309, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-satellite:before {
+  content: "\f176";
+}
+
+/* line 310, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-scala:before {
+  content: "\f177";
+}
+
+/* line 311, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-scala-alt:before {
+  content: "\f178";
+}
+
+/* line 312, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-script:before {
+  content: "\f179";
+}
+
+/* line 313, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-script-alt:before {
+  content: "\f17a";
+}
+
+/* line 314, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-shell:before {
+  content: "\f17b";
+}
+
+/* line 315, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-sitefinity:before {
+  content: "\f17c";
+}
+
+/* line 316, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-solaris:before {
+  content: "\f17d";
+}
+
+/* line 317, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-splatter:before {
+  content: "\f17e";
+}
+
+/* line 318, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-spring:before {
+  content: "\f17f";
+}
+
+/* line 319, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-suse:before {
+  content: "\f180";
+}
+
+/* line 320, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-svg:before {
+  content: "\f181";
+}
+
+/* line 321, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-symfony:before {
+  content: "\f182";
+}
+
+/* line 322, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-tomcat:before {
+  content: "\f183";
+}
+
+/* line 323, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-ubuntu:before {
+  content: "\f184";
+}
+
+/* line 324, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-unity:before {
+  content: "\f185";
+}
+
+/* line 325, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-wireless:before {
+  content: "\f186";
+}
+
+/* line 326, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-wordpress:before {
+  content: "\f187";
+}
+
+/* line 327, C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/font-mfizz-rails-1.1.0/app/assets/stylesheets/font-mfizz.css.erb */
+.icon-x11:before {
+  content: "\f188";
+}
+
+/* line 6, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 #about {
   background: #000;
-  position: relative;
-  z-index: 1;
 }
-/* line 9, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_mixins.scss */
-#about:after {
-  background: inherit;
-  content: '';
-  display: block;
-  height: 50%;
-  left: 0;
-  position: absolute;
-  right: 0;
-  z-index: -1;
-  -webkit-backface-visibility: hidden;
-}
-/* line 36, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_mixins.scss */
-#about:after {
-  top: 23px;
-  transform: skewY(-1.1deg);
-  transform-origin: 100%;
+/* line 9, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+#about p {
+  color: #fff;
 }
 
-/* line 8, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
-#about:after {
-  height: 100%;
-  background: #000;
-}
-
-/* line 13, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
-.about_box_primary {
-  background: #f9cfcf;
-  top: 21px;
-  z-index: 4;
-}
-
-/* line 19, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
-.about_box_info {
-  background: #fff;
-  top: 25px;
-  z-index: 4;
-}
-
-/* line 25, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 14, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 html,
 body {
   height: 100%;
   width: 100%;
 }
 
-/* line 30, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 20, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-/* line 33, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 24, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+.hand-type {
+  font-family: 'La Belle Aurore', cursive;
+}
+
+/* line 28, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+.secondary-text {
+  color: #f1c40f;
+}
+
+/* line 32, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+.form-control {
+  border-radius: 0;
+}
+
+/* line 36, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 hr {
-  border-color: #F05F40;
+  border-color: #f31884;
   border-width: 3px;
   max-width: 50px;
 }
 
-/* line 38, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 41, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 hr.light {
   border-color: white;
 }
 
-/* line 41, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 44, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color: #f31884;
 }
 
-/* line 47, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 50, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #cd0b6b;
 }
 
-/* line 51, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-
-/* line 59, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 55, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
-/* line 64, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 61, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .bg-primary {
-  background-color: #F05F40;
+  background: #f31884;
+}
+/* line 4, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_mixins.scss */
+.bg-primary:hover, .bg-primary:active, .bg-primary:focus {
+  background: #cd0b6b;
 }
 
-/* line 67, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 65, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .bg-dark {
   background-color: #222222;
   color: white;
 }
 
-/* line 71, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 69, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 74, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 72, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 section {
   padding: 100px 0;
 }
 
-/* line 77, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 75, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 aside {
   padding: 50px 0;
 }
 
-/* line 80, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 78, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .no-padding {
   padding: 0;
 }
 
-/* line 83, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 81, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .navbar-default {
   background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 
-/* line 91, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 89, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #f31884;
   font-weight: 700;
   text-transform: uppercase;
 }
+/* line 94, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+.navbar-default .navbar-header .navbar-brand img {
+  width: 43%;
+}
 
-/* line 97, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 99, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
   color: #eb3812;
 }
 
-/* line 101, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 103, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
@@ -12708,7 +13555,7 @@ aside {
   text-transform: uppercase;
 }
 
-/* line 107, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 109, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
@@ -12717,86 +13564,88 @@ aside {
   color: #222222;
 }
 
-/* line 114, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 116, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #F05F40;
+  color: #f31884;
 }
 
-/* line 118, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 120, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color: #f31884 !important;
   background-color: transparent;
 }
 
-/* line 123, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 125, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
 
 @media (min-width: 768px) {
-  /* line 128, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 130, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .navbar-default {
     background-color: transparent;
     border-color: rgba(255, 255, 255, 0.3);
+    border: none;
   }
 
-  /* line 132, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 135, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
 
-  /* line 135, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 138, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
     color: white;
   }
 
-  /* line 139, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 142, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     color: rgba(255, 255, 255, 0.7);
   }
 
-  /* line 143, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 146, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
   }
 
-  /* line 147, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 150, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .navbar-default.affix {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
-  }
-
-  /* line 151, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
-  .navbar-default.affix .navbar-header .navbar-brand {
-    color: #F05F40;
-    font-size: 14px;
+    border-bottom: 1px solid #e7e7e7;
   }
 
   /* line 155, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #f31884;
+    font-size: 14px;
+  }
+
+  /* line 159, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #eb3812;
   }
 
-  /* line 159, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 163, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
     color: #222222;
   }
 
-  /* line 163, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 167, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
+    color: #f31884;
   }
 }
-/* line 168, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 172, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 header {
   position: relative;
   width: 100%;
@@ -12806,12 +13655,12 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url("../img/header.jpg");
+  background: url(http://res.cloudinary.com/milestudios/image/upload/v1489455638/bg_wouq3p.jpg);
   text-align: center;
   color: white;
 }
 
-/* line 182, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 186, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 header .header-content {
   position: relative;
   text-align: center;
@@ -12819,7 +13668,7 @@ header .header-content {
   width: 100%;
 }
 
-/* line 189, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 193, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
@@ -12828,12 +13677,12 @@ header .header-content .header-content-inner h1 {
   font-size: 30px;
 }
 
-/* line 197, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 201, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
 
-/* line 201, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 205, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
@@ -12842,34 +13691,39 @@ header .header-content .header-content-inner p {
 }
 
 @media (min-width: 768px) {
-  /* line 209, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 213, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   header {
     min-height: 100%;
   }
 
-  /* line 212, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 216, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   header .header-content {
     position: absolute;
-    top: 50%;
+    top: 52%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 0 50px;
   }
+  /* line 224, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  header .header-content img {
+    width: 36%;
+    margin-bottom: 9%;
+  }
 
-  /* line 220, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 230, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 225, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 235, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   header .header-content .header-content-inner h1 {
     font-size: 50px;
   }
 
-  /* line 228, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 238, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   header .header-content .header-content-inner p {
     font-size: 18px;
     max-width: 80%;
@@ -12877,29 +13731,29 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 }
-/* line 236, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 246, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .section-heading {
   margin-top: 0;
 }
 
-/* line 240, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 250, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
 }
 
 @media (min-width: 992px) {
-  /* line 246, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 256, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .service-box {
     margin: 20px auto 0;
   }
 }
-/* line 251, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 261, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .service-box p {
   margin-bottom: 0;
 }
 
-/* line 255, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 265, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .portfolio-box {
   position: relative;
   display: block;
@@ -12907,7 +13761,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto;
 }
 
-/* line 262, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 272, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .portfolio-box .portfolio-box-caption {
   color: white;
   opacity: 0;
@@ -12923,7 +13777,7 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
 }
 
-/* line 277, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 287, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
   text-align: center;
@@ -12932,63 +13786,63 @@ header .header-content .header-content-inner p {
   transform: translateY(-50%);
 }
 
-/* line 285, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 295, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   padding: 0 15px;
 }
 
-/* line 291, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 301, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
 }
 
-/* line 297, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 307, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
 
-/* line 301, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 311, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
 
-/* line 305, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 315, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .portfolio-box:focus {
   outline: none;
 }
 
 @media (min-width: 768px) {
-  /* line 310, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 320, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
 
-  /* line 313, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  /* line 323, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
 }
-/* line 318, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 328, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
 
-/* line 322, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 332, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .text-primary {
-  color: #F05F40;
+  color: #f31884;
 }
 
-/* line 326, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 336, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 331, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 341, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .btn-default {
   color: #222222;
   background-color: white;
@@ -12998,7 +13852,7 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
 }
 
-/* line 340, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 350, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
@@ -13010,101 +13864,28 @@ header .header-content .header-content-inner p {
   border-color: #ededed;
 }
 
-/* line 351, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 361, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   background-image: none;
 }
 
-/* line 357, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
-.btn-default.disabled,
-.btn-default[disabled],
-fieldset[disabled] .btn-default,
-.btn-default.disabled:hover,
-.btn-default[disabled]:hover,
-fieldset[disabled] .btn-default:hover,
-.btn-default.disabled:focus,
-.btn-default[disabled]:focus,
-fieldset[disabled] .btn-default:focus,
-.btn-default.disabled.focus,
-.btn-default[disabled].focus,
-fieldset[disabled] .btn-default.focus,
-.btn-default.disabled:active,
-.btn-default[disabled]:active,
-fieldset[disabled] .btn-default:active,
-.btn-default.disabled.active,
-.btn-default[disabled].active,
-fieldset[disabled] .btn-default.active {
-  background-color: white;
-  border-color: white;
-}
-
-/* line 379, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
-.btn-default .badge {
-  color: white;
-  background-color: #222222;
-}
-
-/* line 384, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 367, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .btn-primary {
   color: white;
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background: #f31884;
+  border-color: #f31884;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
-
-/* line 393, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary.focus,
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-  color: white;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+/* line 4, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_mixins.scss */
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background: #cd0b6b;
 }
 
-/* line 404, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-  background-image: none;
-}
-
-/* line 410, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled.focus,
-.btn-primary[disabled].focus,
-fieldset[disabled] .btn-primary.focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
-  background-color: #F05F40;
-  border-color: #F05F40;
-}
-
-/* line 431, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
-.btn-primary .badge {
-  color: #F05F40;
-  background-color: white;
-}
-
-/* line 435, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 376, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
@@ -13113,48 +13894,85 @@ fieldset[disabled] .btn-primary.active {
   text-transform: uppercase;
 }
 
-/* line 442, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 384, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .btn-xl {
   padding: 15px 30px;
 }
 
-/* line 445, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 387, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 ::-moz-selection {
   color: white;
   text-shadow: none;
   background: #222222;
 }
 
-/* line 450, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 392, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 ::selection {
   color: white;
   text-shadow: none;
   background: #222222;
 }
 
-/* line 455, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 397, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 img::selection {
   color: white;
   background: transparent;
 }
 
-/* line 459, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 401, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 img::-moz-selection {
   color: white;
   background: transparent;
 }
 
-/* line 463, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 405, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 body {
   webkit-tap-highlight-color: #222222;
 }
 
-/* line 467, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 409, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 #projects {
   background: #f3f3f3;
 }
 
-/* line 471, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+/* line 413, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+#contact {
+  background: #34495e;
+}
+/* line 416, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+#contact h1, #contact h2, #contact h3, #contact h4 {
+  color: #fff;
+  margin-bottom: 12px;
+}
+/* line 421, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+#contact .section-heading {
+  border-color: #fff;
+}
+/* line 425, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+#contact .container {
+  background: #fff;
+  padding-top: 40px;
+  padding-bottom: 12px;
+}
+/* line 431, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+#contact .container .left-border {
+  border-left: 1px solid #c7c7c7;
+}
+/* line 435, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+#contact .container form {
+  width: 90%;
+  margin-left: 4%;
+}
+/* line 439, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+#contact .container form input[type=submit] {
+  float: left;
+}
+/* line 447, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+#contact h5 {
+  margin-top: 3%;
+}
+
+/* line 452, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
 .back-to-top {
   cursor: pointer;
   position: fixed;
@@ -13162,4 +13980,64 @@ body {
   right: 20px;
   display: none;
   z-index: 100;
+}
+
+/* line 461, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+hr.left {
+  margin-left: 0;
+}
+
+/* line 465, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+.button {
+  border-radius: 0;
+}
+
+/* line 469, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+.bullet {
+  background: #f31884;
+  border-radius: 71px;
+  padding-top: 34px;
+  width: 87px;
+  text-align: center;
+  height: 86px;
+  color: #fff;
+  margin-bottom: 31px;
+  margin-left: 37%;
+}
+
+@media (max-width: 425px) {
+  /* line 483, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  .navbar-default .navbar-header .navbar-brand img {
+    position: absolute;
+  }
+
+  /* line 488, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  #contact form {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* line 493, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  #contact .left-border {
+    border: 0;
+  }
+
+  /* line 500, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+  header .header-content img {
+    width: 45%;
+  }
+}
+/* line 507, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+p.text-description {
+  color: #999;
+}
+
+/* line 512, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+#form_message {
+  font-size: 13px;
+  line-height: 1;
+}
+
+/* line 517, C:/Users/eduardo/Sites/ethome_page/app/assets/stylesheets/core/_main.scss */
+p.primary-tex {
+  color: #f31884;
 }

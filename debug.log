@@ -1,1 +1,2 @@
 [0314/003438.629:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: O pipe está sendo fechado. (0xE8)
+[0314/173717.942:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: O pipe está sendo fechado. (0xE8)

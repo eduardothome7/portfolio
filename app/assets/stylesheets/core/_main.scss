@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore');
 @import "variables";
 @import "mixins";
 
@@ -18,6 +19,14 @@ body {
 
 body {
   font-family: 'Titillium Web', sans-serif;
+}
+
+.hand-type {
+  font-family: 'La Belle Aurore', cursive;  
+}
+
+.secondary-text {
+  color: $secondary; 
 }
 
 .form-control {
@@ -40,7 +49,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: darken($primary, 10%);
 }
 
 p {
@@ -206,12 +215,18 @@ header .header-content .header-content-inner p {
   }
   header .header-content {
     position: absolute;
-    top: 50%;
+    top: 52%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 0 50px;
+
+    img {
+      width: 36%;
+      margin-bottom: 9%;
+    }
   }
+
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: auto;
@@ -398,7 +413,7 @@ body {
 #contact {
     background: #34495e;
     
-    h1,h2,h3,h4,h5,h6 {
+    h1,h2,h3,h4 {
         color: #fff;
         margin-bottom: 12px;
     }
@@ -425,6 +440,12 @@ body {
                 float: left;
             }
         }
+
+
+    }
+    
+    h5 {
+      margin-top: 3%;
     }
 }
 
@@ -474,6 +495,12 @@ hr.left {
         }
 
     }
+
+    header .header-content {
+      img {
+        width: 45%;
+      }
+    }
 }
 
 
@@ -485,4 +512,8 @@ p.text-description {
 #form_message {
   font-size: 13px;
   line-height: 1;
+}
+
+p.primary-tex {
+  color: $primary;
 }
