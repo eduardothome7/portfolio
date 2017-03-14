@@ -25,30 +25,30 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    	<i class="fa fa-4x  icon-ruby-on-rails-alt text-primary sr-icons"></i>
+                        <h3>Ruby on Rails</h3>
+                        <p class="text-muted">Frameworkd para desenvolvimento ágil e rápido de aplicações web. Indica para projetos com prazo determinado, devido a sua produtividade e ferramentas automatizadas.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <i class="fa fa-4x  icon-html text-primary sr-icons"></i>
+                        <h3>Front-end</h3>
+                        <p class="text-muted">Codificação de Layouts, através de Templates em PSD, utilizando ferramentas modernas de design responsivo, otimizado para dispositivos mobile.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                        <i class="fa fa-4x icon-javascript text-primary sr-icons"></i>
+                        <h3>Javascript</h3>
+                        <p class="text-muted">Integração entre front-end e back-end através da linguagem Javascript, tornando a página mais dinâmica e iterativa, através de frameworks como JQuery.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <i class="fa fa-4x icon-php-alt text-primary sr-icons"></i>
+                        <h3>PHP</h3>
+                        <p class="text-muted">Desenvolvimento de páginas de conteúdo, ou sistemas de ecommerce ou SEO, como Wordpress, nesta que é a linguagem de programação mais popular de web sites! Utilização de <em>frameworks</em> como Laravel, ou CAKEPHP, ou customização de sistemas Wordpress.</p>
                     </div>
                 </div>
             </div>
@@ -81,18 +81,21 @@
                     <p class="text-description"><span class="glyphicon glyphicon-map-marker"></span> Porto Alegre - RS </p>
                 </div>
                 <div class="col-md-6 left-border">
-                	<form action="#" method="post">
+                    <text id="form_message"></text>
+                	<form action="#" id="contact-form" method="post">
+                        <!-- <%= hidden_field_tag :authenticity_token, form_authenticity_token %> -->
+
                 		<div class="form-group">
-                			<input type="text" class="form-control" name="name" placeholder="Nome completo">
+                			<input type="text" class="form-control" name="name" required="true" placeholder="Nome completo">
                 		</div>
                 		<div class="form-group">
-                			<input type="email" class="form-control" name="email" placeholder="email">
+                			<input type="email" class="form-control" name="email" required="true" placeholder="email">
                 		</div>
                 		<div class="form-group">
-                			<input type="text" class="form-control" name="title" placeholder="assunto">
+                			<input type="text" class="form-control" name="title" required="true" placeholder="assunto">
                 		</div>
                 		<div class="form-group">
-                			<textarea class="form-control" rows="5" name="message" placeholder="Mensagem"></textarea>
+                			<textarea class="form-control" rows="5" name="message" required="true" placeholder="Mensagem"></textarea>
                 		</div>
                 		<div class="row">
                 			<div class="col-md-4 col-md-offset-8">

@@ -61,7 +61,32 @@ $(document).ready(function(){
         offset: {
             top: 100
         }
-    })
+    });
+
+
+    $('#contact-form').submit(function(e) {
+        e.preventDefault();
+
+        var formData = $(this).serialize().split("&");;
+
+        var obj={};
+        
+        for(var key in formData) {
+            console.log(formData[key]);
+            obj[formData[key].split("=")[0]] = formData[key].split("=")[1];
+        }
+
+        var name =  obj[formData[0].split("=")[0]];
+        var email = obj[formData[1].split("=")[0]];
+        var title = obj[formData[2].split("=")[0]];
+        var message = obj[formData[3].split("=")[0]];
+
+        $.ajax({
+            url: '/home/send_mail.js?name='+name+'&email='+email+'&title='+title+'&message='+message,
+            type: 'get'
+        });
+        
+    });
 
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
@@ -78,5 +103,7 @@ $(document).ready(function(){
         scale: 0.3,
         distance: '0px'
     }, 300);
+
+
 
 });
