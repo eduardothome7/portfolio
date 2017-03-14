@@ -20,6 +20,10 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
+.form-control {
+    border-radius: 0;    
+}
+
 hr {
   border-color: $primary;
   border-width: 3px;
