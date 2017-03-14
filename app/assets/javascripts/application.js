@@ -20,7 +20,7 @@
 
 $(document).ready(function(){
 
-	"use strict"; // Start of use strict
+	"use strict"; 
 
 	$(window).scroll(function () {
         if ($(this).scrollTop() > 20) {
@@ -40,8 +40,6 @@ $(document).ready(function(){
 
     $('#back-to-top').tooltip('show');
 
-
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
     $(document).on('click', 'a.page-scroll', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -50,25 +48,21 @@ $(document).ready(function(){
         event.preventDefault();
     });
 
-    // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
         offset: 51
     });
 
-    // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function() {
         $('.navbar-toggle:visible').click();
     });
 
-    // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
             top: 100
         }
     })
 
-    // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
         duration: 600,
