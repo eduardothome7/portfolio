@@ -1,24 +1,7 @@
-# README
+Página de Portfólio.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Links de redes sociais, projetos e formulário de contato.
 
-Things you may want to cover:
+Desenvolvido no framework Rails 5.02, hospedado na plataforma Heroku.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+http://eduardothome.herokuapp.com
